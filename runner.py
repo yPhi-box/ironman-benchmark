@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IRONMAN Benchmark Runner v2
+IRONMAN Benchmark Runner v1.0
 Universal runner — works with HMS, OpenClaw, grep, or any adapter.
 
 Usage:

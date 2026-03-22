@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IRONMAN Memory Benchmark v2
+IRONMAN Memory Benchmark v1.0
 Universal benchmark for any memory system.
 
 Usage:
@@ -158,7 +158,7 @@ def run_tier(adapter: MemoryAdapter, corpus: list, queries: list,
 
 
 def main():
-    parser = argparse.ArgumentParser(description="IRONMAN Memory Benchmark v2")
+    parser = argparse.ArgumentParser(description="IRONMAN Memory Benchmark v1.0")
     parser.add_argument("--adapter", choices=list(ADAPTERS.keys()), required=True)
     parser.add_argument("--corpus", required=True, help="Corpus JSON (array of messages)")
     parser.add_argument("--queries", required=True, help="Queries JSON file")

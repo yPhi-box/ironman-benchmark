@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IRONMAN Scoring Engine v2
+IRONMAN Scoring Engine v1.0
 Universal scorer for ANY memory system.
 
 Rules:

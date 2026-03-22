@@ -3,6 +3,8 @@
 Ingest: writes message to a file, then calls /index.
         HMS chunks, embeds, and extracts entities naturally.
 Search: POST /search — returns chunks with scores.
+
+IMPORTANT: Defaults to /tmp/ironman-hms-data to avoid touching your real workspace.
 """
 import os
 import time
@@ -12,32 +14,26 @@ from .base import MemoryAdapter
 
 
 class HMSAdapter(MemoryAdapter):
-    name = "HMS v2.2 (all-MiniLM-L6-v2, local)"
+    name = "HMS v2.4 (all-MiniLM-L6-v2 + cross-encoder, local)"
     
     def __init__(self, url: str = "http://localhost:8765",
                  workspace: str = None):
         self.url = url.rstrip("/")
-        self.workspace = workspace or os.path.expanduser("~/hms/data")
+        self.workspace = workspace or "/tmp/ironman-hms-data"
         self.session = requests.Session()
-        self._message_buffer = []
-        self._current_date = None
     
     def ingest(self, message: str, timestamp: str = None) -> dict:
         """Write message to a daily file, then index.
         
         HMS indexes files from a directory. We write messages to daily
         markdown files (same format OC uses), then tell HMS to index.
-        This IS how HMS naturally works — it watches/indexes workspace files.
         """
         if timestamp:
-            date = timestamp[:10]  # YYYY-MM-DD
+            date = timestamp[:10]
         else:
             date = time.strftime("%Y-%m-%d")
         
-        # Buffer messages per day, write to file
         filepath = os.path.join(self.workspace, f"{date}.md")
-        
-        # Append to daily file
         os.makedirs(self.workspace, exist_ok=True)
         with open(filepath, "a") as f:
             if timestamp:
@@ -86,24 +82,18 @@ class HMSAdapter(MemoryAdapter):
             return {}
     
     def reset(self) -> None:
-        """Clear HMS database and data directory."""
+        """Clear benchmark data. Only deletes from the configured workspace."""
         import shutil
-        import subprocess
         
-        # Stop service, delete DB
-        subprocess.run("sudo systemctl stop hms 2>/dev/null", shell=True)
+        if "/tmp/" not in self.workspace and "ironman" not in self.workspace.lower():
+            raise RuntimeError(
+                f"SAFETY: reset() refused — workspace '{self.workspace}' doesn't look like a "
+                f"benchmark directory. Set workspace to a /tmp/ path or include 'ironman' in the name."
+            )
         
-        hms_dir = os.path.expanduser("~/hms")
-        for f in ["memory.db", "memory.hnsw", "memory.hnsw2"]:
-            p = os.path.join(hms_dir, f)
-            if os.path.exists(p):
-                os.remove(p)
-        
-        # Clear data directory
         if os.path.exists(self.workspace):
             shutil.rmtree(self.workspace)
         os.makedirs(self.workspace, exist_ok=True)
         
-        # Restart
-        subprocess.run("sudo systemctl start hms 2>/dev/null", shell=True)
-        time.sleep(8)
+        # Re-index empty directory
+        self.flush_index()

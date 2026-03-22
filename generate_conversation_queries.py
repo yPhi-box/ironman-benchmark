@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IRONMAN Query Generator v3
+IRONMAN Query Generator v1.0
 Balanced categories following LoCoMo methodology.
 
 Distribution:
@@ -468,7 +468,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--corpus", default="/tmp/ironman_corpus.json")
     parser.add_argument("--state", default="/tmp/ironman_corpus_world_state.json")
-    parser.add_argument("--output", default="/tmp/ironman_queries_v2.json")
+    parser.add_argument("--output", default="/tmp/ironman_queries.json")
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
     

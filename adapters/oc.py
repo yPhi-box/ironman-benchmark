@@ -2,6 +2,9 @@
 
 Same data format as HMS (daily markdown files).
 Search uses openclaw memory search CLI.
+
+IMPORTANT: Defaults to /tmp/ironman-oc-workspace to avoid touching your real data.
+Set workspace= to override, but be careful with reset() — it deletes files.
 """
 import os
 import re
@@ -14,10 +17,10 @@ from .base import MemoryAdapter
 
 class OCAdapter(MemoryAdapter):
     """OpenClaw native memory via CLI. Run ON the OC machine."""
-    name = "OpenClaw Native (text-embedding-3-small)"
+    name = "OpenClaw Native"
     
     def __init__(self, workspace: str = None, **kwargs):
-        self.workspace = workspace or os.path.expanduser("~/.openclaw/workspace/memory")
+        self.workspace = workspace or "/tmp/ironman-oc-workspace/memory"
     
     def ingest(self, message: str, timestamp: str = None) -> dict:
         """Write message to memory/*.md — same format as HMS adapter."""
@@ -80,12 +83,11 @@ class OCAdapter(MemoryAdapter):
         return {"files": files, "chunks": chunks}
     
     def reset(self) -> None:
-        """Clear memory files and reindex."""
+        """Clear benchmark data. Only deletes from the configured workspace."""
+        if "/tmp/" not in self.workspace and "ironman" not in self.workspace.lower():
+            raise RuntimeError(
+                f"SAFETY: reset() refused — workspace '{self.workspace}' doesn't look like a "
+                f"benchmark directory. Set workspace to a /tmp/ path or include 'ironman' in the name."
+            )
         for f in glob.glob(os.path.join(self.workspace, "*.md")):
             os.remove(f)
-        # Also clear MEMORY.md if it exists
-        mem_file = os.path.join(os.path.dirname(self.workspace), "MEMORY.md")
-        if os.path.exists(mem_file):
-            os.remove(mem_file)
-        subprocess.run("openclaw memory index --force",
-                       shell=True, capture_output=True, timeout=60)

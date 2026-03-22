@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IRONMAN Conversation Corpus Generator v3
+IRONMAN Conversation Corpus Generator v1.0
 Generates RICH conversation blocks — multi-paragraph, realistic density.
 
 Each message is a conversation block (5-15 sentences) not a one-liner.
