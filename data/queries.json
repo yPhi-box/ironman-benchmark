@@ -1,0 +1,4972 @@
+[
+  {
+    "query": "When did Yuki Han join the company?",
+    "expect": "2025-03-28",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Noah Costa have any food sensitivities?",
+    "expect": "strawberries",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to latex work on?",
+    "expect": "People Ops",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Kenji Foster's hobbies?",
+    "expect": "pottery",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Stefan Singh have any food sensitivities?",
+    "expect": "eggs",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "When was the Datadog key last rotated?",
+    "expect": "2025-04-10",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ivan Banerjee's email address?",
+    "expect": "ivan.banerjee@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What was Wren Dubois's role before their last promotion?",
+    "expect": "Sales Rep",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Kai Osei's employee ID?",
+    "expect": "NX-1821",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is the name of Uri Vega's pet?",
+    "expect": "Bento",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Uri Nair sit?",
+    "expect": "B4-19",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Stripe API key?",
+    "expect": "rk-test-nexus-y3xsn5u4w9rsh8yzwjscsfw",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When was the Stripe key last rotated?",
+    "expect": "2025-04-21",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When was the OpenAI key last rotated?",
+    "expect": "2025-04-07",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Wren Dubois's phone number?",
+    "expect": "(206) 977-3615",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Cobalt Electronics's ARR?",
+    "expect": "$280,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uri Nair's email address?",
+    "expect": "uri.nair@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Marco Rossi from?",
+    "expect": "Irvine",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Freya Holloway's employee ID?",
+    "expect": "NX-2827",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Munich on the Product team have?",
+    "expect": "HR Manager",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "When was the OpenAI key last rotated?",
+    "expect": "2025-04-16",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Anders Shah's phone number?",
+    "expect": "(765) 500-6925",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current PTO policy policy?",
+    "expect": "25 days fixed",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Where does Uri Nguyen sit?",
+    "expect": "C2-9",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What does the customer with contact Jakob Berg use our product for?",
+    "expect": "real-time supply chain visibil",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current Stripe API key?",
+    "expect": "rk-test-nexus-6vgujj1ye24z8608cx8fgpwkc",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current Grafana API key?",
+    "expect": "glsa-nexus-v98yzift9yvi7f16xbxtlnv5",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Datadog API key?",
+    "expect": "dd-api-0dm7x5j6iuukztv6685t4bxvh0",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Nina Singh from?",
+    "expect": "Boston",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Uri Nair's hobbies?",
+    "expect": "bouldering",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Soren Kim join the company?",
+    "expect": "2025-04-01",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Yuki Wei allergic to?",
+    "expect": "peanuts",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Uma Mueller's email address?",
+    "expect": "uma.mueller@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Helio Freight's ARR?",
+    "expect": "$340,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Freya Wei's employee ID?",
+    "expect": "NX-9005",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Storm Nakamura's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What role does the person from Austin on the Atlas team have?",
+    "expect": "Engineering Manager",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to peanuts work on?",
+    "expect": "Legal",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What tech stack does the Polaris project use?",
+    "expect": "PyTorch",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What role does the person from Atlanta on the Design team have?",
+    "expect": "Frontend Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "When did Mina Alvarez join the company?",
+    "expect": "2025-04-08",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the email for Summit Auto Parts's main contact?",
+    "expect": "luna.petrov@summitautoparts.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What team does the person allergic to shellfish work on?",
+    "expect": "Mercury",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Stefan Singh call home?",
+    "expect": "Austin",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Yuki Wei's children's names?",
+    "expect": "Tomas",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Jakob Wu sit?",
+    "expect": "C4-18",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Luna Dubois's hobbies?",
+    "expect": "trail running",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Boston on the People Ops team have?",
+    "expect": "ML Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ivan Banerjee's phone number?",
+    "expect": "(608) 887-7118",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uri Nair's employee ID?",
+    "expect": "NX-7873",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to strawberries work on?",
+    "expect": "Product",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Nina Yamamoto allergic to?",
+    "expect": "peanuts",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Uma Mueller have any food sensitivities?",
+    "expect": "shellfish",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Omar Horvat join the company?",
+    "expect": "2025-03-31",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Kira Becker's hobbies?",
+    "expect": "painting miniatures",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uma Mueller allergic to?",
+    "expect": "shellfish",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What does the customer with contact Felix Blackwood use our product for?",
+    "expect": "supplier lead time optimizatio",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the main contact at Summit Auto Parts?",
+    "expect": "Luna Petrov",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Luna Dubois's phone number?",
+    "expect": "(818) 470-1711",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Ethan Moreno's current role?",
+    "expect": "Technical Writer",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Ironwood Timber in?",
+    "expect": "Forestry",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAa3s8ke2wrhx17sqzv1gagqo679o2xz36jwb",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Bram Park have any food sensitivities?",
+    "expect": "penicillin",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Uma Mueller from?",
+    "expect": "Toronto",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current PagerDuty API key?",
+    "expect": "pd-svc-9a90fo3gil1zbm21yannreg8lxum3",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Uri Vega allergic to?",
+    "expect": "eggs",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Bram Park's employee ID?",
+    "expect": "NX-5506",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Yuki Wei's email address?",
+    "expect": "yuki.wei@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Priya Moreno join the company?",
+    "expect": "2025-04-03",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Atlanta on the Infrastructure team have?",
+    "expect": "Sales Rep",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Grafana API key?",
+    "expect": "glsa-nexus-4b9uukmu46jd2gvf6lcp2277kx",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Is Lars Mueller a parent?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Stripe API key?",
+    "expect": "rk-test-nexus-6vgujpchmb2u0j0n064di7n9",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current office days policy?",
+    "expect": "Monday through Wednesday",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Luna Lee's current role?",
+    "expect": "Data Engineer",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Fiona Adeyemi's hobbies?",
+    "expect": "piano",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "When did Lena Ortega join the company?",
+    "expect": "2025-04-15",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Nina Yamamoto's phone number?",
+    "expect": "(295) 423-4811",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to tree nuts work on?",
+    "expect": "Design",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Summit Auto Parts in?",
+    "expect": "Automotive",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What are Tomas Wu's hobbies?",
+    "expect": "drone racing",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Leila Reyes call home?",
+    "expect": "Tokyo",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Wren Dubois's current role?",
+    "expect": "Data Scientist",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-edkts2us5puyrzxhm8l9b3n2se",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Nina Yamamoto's employee ID?",
+    "expect": "NX-9279",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current office days policy?",
+    "expect": "Monday through Wednesday",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Summit Auto Parts's ARR?",
+    "expect": "$280,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Nina Singh's employee ID?",
+    "expect": "NX-9751",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current GitHub API key?",
+    "expect": "ghp-wx1jp70lxsy0c0phq57uyzhww3ltfiuhpth",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What tech stack does the Meridian project use?",
+    "expect": "Python",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Uri Nguyen's phone number?",
+    "expect": "(850) 573-3664",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Yuki Wei from?",
+    "expect": "Providence",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Wren Holloway sit?",
+    "expect": "B5-5",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Leila Reyes from?",
+    "expect": "Tokyo",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Cyrus Alvarez join the company?",
+    "expect": "2025-04-18",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Olga Nair allergic to?",
+    "expect": "penicillin",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Stefan Singh's hobbies?",
+    "expect": "painting miniatures",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the name of Stefan Singh's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Ava Ramirez's hobbies?",
+    "expect": "playing cello",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Wren Holloway allergic to?",
+    "expect": "dairy",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is the Tokyo office?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current PTO policy policy?",
+    "expect": "unlimited with 10-day minimum",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Olga Nair's email address?",
+    "expect": "olga.nair@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current PTO policy policy?",
+    "expect": "unlimited with 20-day minimum",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When did Luna Lee join the company?",
+    "expect": "2025-03-26",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the AWS key last rotated?",
+    "expect": "2025-04-04",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to shellfish work on?",
+    "expect": "Platform",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Datadog key last rotated?",
+    "expect": "2025-04-13",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What was Greta Brooks's role before their last promotion?",
+    "expect": "Sales Rep",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ava Ramirez allergic to?",
+    "expect": "tree nuts",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the email for Cobalt Electronics's main contact?",
+    "expect": "felix.blackwood@cobaltelectronics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Lars Okonkwo's phone number?",
+    "expect": "(356) 842-3621",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Kenji Foster's phone number?",
+    "expect": "(978) 745-3060",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Luna Dubois allergic to?",
+    "expect": "gluten",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Adrian Cole's employee ID?",
+    "expect": "NX-9201",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Leo Lam's phone number?",
+    "expect": "(763) 300-1828",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Ivan Banerjee from?",
+    "expect": "Milan",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ava Ramirez's phone number?",
+    "expect": "(471) 740-7932",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Nina Singh's phone number?",
+    "expect": "(823) 850-3803",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Cobalt Electronics in?",
+    "expect": "Consumer Electronics",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Olga Nair call home?",
+    "expect": "Irvine",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Quasar Williams's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "When did Noah Watanabe join the company?",
+    "expect": "2025-04-07",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "what what is the office location",
+    "expect": "Boulder",
+    "category": "robustness",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Kai Iqbal's employee ID?",
+    "expect": "NX-4502",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to penicillin work on?",
+    "expect": "Product",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uri Vega's employee ID?",
+    "expect": "NX-5304",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Anders Shah from?",
+    "expect": "Richmond",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Wren Lee sit?",
+    "expect": "D1-2",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When was the GitHub key last rotated?",
+    "expect": "2025-04-05",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Dante Banerjee's employee ID?",
+    "expect": "NX-4119",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What industry is Pinnacle Foods in?",
+    "expect": "Food Distribution",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Uri Vega's phone number?",
+    "expect": "(962) 774-9830",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current PagerDuty API key?",
+    "expect": "pd-svc-xifsu06kbb61lgg7jpm7qwrzfxz3p",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What role does the person from Atlanta on the Legal team have?",
+    "expect": "Account Executive",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What does the customer with contact Lars Martinez use our product for?",
+    "expect": "demand forecasting across dist",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Kai Osei's email address?",
+    "expect": "kai.osei@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "When was the AWS key last rotated?",
+    "expect": "2025-04-17",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When was the AWS key last rotated?",
+    "expect": "2025-04-21",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What industry is Blue Mesa Grocers in?",
+    "expect": "Grocery Retail",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Is Fiona Patel a parent?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the name of Wren Dubois's pet?",
+    "expect": "Ada",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Yuki Wei's employee ID?",
+    "expect": "NX-1344",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What are Yuki Wei's hobbies?",
+    "expect": "trail photography",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Leila Reyes have any food sensitivities?",
+    "expect": "shellfish",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the quantum computing budget?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Wren Lee's employee ID?",
+    "expect": "NX-9348",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Noah Costa from?",
+    "expect": "Melbourne",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Wren Lee have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Maya Holloway join the company?",
+    "expect": "2025-04-16",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is the name of Nina Singh's pet?",
+    "expect": "Hazel",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to eggs work on?",
+    "expect": "Infrastructure",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Noah Han join the company?",
+    "expect": "2025-04-21",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Is Bella Thompson a parent?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Tomas Wu sit?",
+    "expect": "D1-12",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the name of Leila Reyes's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Stripe API key?",
+    "expect": "rk-test-nexus-6vguji4j3x0948npf727xehd9",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAgkv05sz92q4nrvh8vyif6wdg1oevzubr25o",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What team does the person allergic to soy work on?",
+    "expect": "Platform",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Nina Singh sit?",
+    "expect": "F2-6",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to penicillin work on?",
+    "expect": "Platform",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-8wdzrmjbf7xkgdsy0pkuumk5635t5bfz",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What was Ethan Moreno's role before their last promotion?",
+    "expect": "UX Designer",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to penicillin work on?",
+    "expect": "Polaris",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Cyrus Moreno join the company?",
+    "expect": "2025-03-20",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Dante Banerjee sit?",
+    "expect": "A1-14",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to peanuts work on?",
+    "expect": "Mercury",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "Who is the main contact at Helio Freight?",
+    "expect": "Bianca Holloway",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What team does the person allergic to strawberries work on?",
+    "expect": "Mercury",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What is the name of Freya Holloway's pet?",
+    "expect": "Fig",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Stripe key last rotated?",
+    "expect": "2025-04-19",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What does the customer with contact Noah Feld use our product for?",
+    "expect": "logistics route optimization",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is RedPeak Retail's ARR?",
+    "expect": "$420,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the name of Nina Yamamoto's pet?",
+    "expect": "Tofu",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to bee stings work on?",
+    "expect": "Infrastructure",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Jakob Wu's phone number?",
+    "expect": "(202) 599-5345",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Tomas Wu from?",
+    "expect": "Karachi",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Adrian Cole's email address?",
+    "expect": "adrian.cole@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current GitHub API key?",
+    "expect": "ghp-ovjarji8b0dziqxzxczd9mx9sey629rh",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current GitHub API key?",
+    "expect": "ghp-ovjarji8b0dz6xpyfxobugvjics4",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Crestline Aviation in?",
+    "expect": "Aviation Services",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Kenji Foster from?",
+    "expect": "Chicago",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the AWS key last rotated?",
+    "expect": "2025-04-14",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Luna Dubois's children's names?",
+    "expect": "Kenji",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Melbourne on the Product team have?",
+    "expect": "Platform Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Grafana API key?",
+    "expect": "glsa-nexus-4b9uuk3xf1gp1z7fztvovke6",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current OpenAI API key?",
+    "expect": "sk-test-nexus-jym8z4700eiue237wi9li16d",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What team does the person allergic to kiwi work on?",
+    "expect": "Platform",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Who is the main contact at Verdant Agriculture?",
+    "expect": "Freya Lee",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What role does the person from Karachi on the Platform team have?",
+    "expect": "Product Manager",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the main contact at Pinnacle Foods?",
+    "expect": "Uma Holloway",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "When was the OpenAI key last rotated?",
+    "expect": "2025-04-23",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Acme Manufacturing's ARR?",
+    "expect": "$560,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current Stripe API key?",
+    "expect": "rk-test-nexus-0240cojbq90sjmvoyp59vq5",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the name of Uri Nguyen's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Fiona Adeyemi's email address?",
+    "expect": "fiona.adeyemi@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What team does the person allergic to eggs work on?",
+    "expect": "Atlas",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-u58cep57tpgf9p7kykirtr5jek1r0t4",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Lars Mueller have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Grafana API key?",
+    "expect": "glsa-nexus-4b9uukmsmlz16ufzgli4upaqyp2",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What does Aders Shah do?",
+    "expect": "DevOps Engineer",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Tomas Wu have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When did Maya Martinez join the company?",
+    "expect": "2025-04-07",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Priya Wu join the company?",
+    "expect": "2025-04-22",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Wren Dubois's email address?",
+    "expect": "wren.dubois@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Fiona Lang's employee ID?",
+    "expect": "NX-4750",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Zenith Kowalski's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "When was the Grafana key last rotated?",
+    "expect": "2025-04-23",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What are Uma Mueller's hobbies?",
+    "expect": "cooking Thai food",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Tomas Wu allergic to?",
+    "expect": "sesame",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "When did Tessa Brooks join the company?",
+    "expect": "2025-03-25",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Wren Dubois allergic to?",
+    "expect": "soy",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to tree nuts work on?",
+    "expect": "Design",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current office days policy?",
+    "expect": "Tuesday and Wednesday only",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When did Lena Martinez join the company?",
+    "expect": "2025-04-02",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Diana Thompson join the company?",
+    "expect": "2025-04-11",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Marco Lam's current role?",
+    "expect": "Solutions Architect",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Wren Lee from?",
+    "expect": "Atlanta",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Lars Mueller from?",
+    "expect": "Tucson",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-edkts2us54gs0fhjwtv3n74w4g22u",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What team does the person allergic to sesame work on?",
+    "expect": "Platform",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-u58cep57tpgjqmljel532uuj2e42t",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Hana Patel sit?",
+    "expect": "A5-18",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Irvine on the Platform team have?",
+    "expect": "Site Reliability Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "day"
+  },
+  {
+    "query": "Where is Adrian Cole from?",
+    "expect": "Austin",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "When was the PagerDuty key last rotated?",
+    "expect": "2025-04-15",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the email for Helio Freight's main contact?",
+    "expect": "bianca.holloway@heliofreight.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current Grafana API key?",
+    "expect": "glsa-nexus-7y22igu47yul38v8wq4mpr9tot",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When did Maya Watanabe join the company?",
+    "expect": "2025-04-03",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Olga Nair from?",
+    "expect": "Irvine",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Horizon Textiles's ARR?",
+    "expect": "$220,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ethan Volkov's phone number?",
+    "expect": "(445) 259-4946",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Hugo Wu join the company?",
+    "expect": "2025-04-12",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the email for Acme Manufacturing's main contact?",
+    "expect": "noah.moreno@acmemanufacturing.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the name of Olga Nair's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What is Nina Yamamoto's email address?",
+    "expect": "nina.yamamoto@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Chicago on the Infrastructure team have?",
+    "expect": "Account Executive",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Kai Osei's phone number?",
+    "expect": "(965) 521-1936",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Leila Reyes's email address?",
+    "expect": "leila.reyes@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to bee stings work on?",
+    "expect": "Security",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What is the name of Anders Shah's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Grafana key last rotated?",
+    "expect": "2025-04-07",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Does Kenji Foster have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the name of Fiona Lang's pet?",
+    "expect": "Clover",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Tomas Reed join the company?",
+    "expect": "2025-04-18",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Kai Iqbal's email address?",
+    "expect": "kai.iqbal@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Stefan Singh from?",
+    "expect": "Austin",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the Head of Blockchain?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Fiona Lang's hobbies?",
+    "expect": "hot yoga",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Fiona Adeyemi's employee ID?",
+    "expect": "NX-5563",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the email for Horizon Textiles's main contact?",
+    "expect": "greta.camara@horizontextiles.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What does Nna Yamamoto do?",
+    "expect": "Platform Engineer",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Blaze Thornton's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What are Anders Shah's children's names?",
+    "expect": "Diana",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Ethan Volkov's hobbies?",
+    "expect": "fly fishing",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Karachi on the Platform team have?",
+    "expect": "Product Manager",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "year"
+  },
+  {
+    "query": "What is Gavin Vega's current role?",
+    "expect": "VP Engineering",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Bram Park allergic to?",
+    "expect": "penicillin",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Uri Nguyen from?",
+    "expect": "Munich",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Nina Singh call home?",
+    "expect": "Boston",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Twilio key last rotated?",
+    "expect": "2025-04-15",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Ethan Volkov have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Dante Banerjee's phone number?",
+    "expect": "(448) 684-7669",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current bereavement leave policy?",
+    "expect": "7 days",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Nina Yamamoto from?",
+    "expect": "Providence",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Uri Nair have any food sensitivities?",
+    "expect": "strawberries",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ivan Banerjee's employee ID?",
+    "expect": "NX-8177",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Wren Holloway's email address?",
+    "expect": "wren.holloway@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Adrian Cole allergic to?",
+    "expect": "sulfa drugs",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Grafana API key?",
+    "expect": "glsa-nexus-v98yzijtyl84potj3d90097iyp",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What are Anders Shah's hobbies?",
+    "expect": "trail photography",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the company's TikTok handle?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Ironwood Timber's ARR?",
+    "expect": "$420,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Kai Iqbal's phone number?",
+    "expect": "(616) 697-8886",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current PagerDuty API key?",
+    "expect": "pd-svc-oxlta8jan63xd45ba890ab7r8s",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAgkv05sz92q4nrvtaqxpdh3tkz6thsxoo",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What team does the person allergic to peanuts work on?",
+    "expect": "Finance",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Where does Ethan Volkov sit?",
+    "expect": "A6-16",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uri Nair's phone number?",
+    "expect": "(933) 865-9928",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Leila Reyes allergic to?",
+    "expect": "shellfish",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ethan Volkov's employee ID?",
+    "expect": "NX-2290",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Jakob Horvat sit?",
+    "expect": "C2-18",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Freya Shah join the company?",
+    "expect": "2025-04-21",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What team does the person allergic to dairy work on?",
+    "expect": "Security",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When was the Datadog key last rotated?",
+    "expect": "2025-04-24",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What was Noah Costa's role before their last promotion?",
+    "expect": "Finance Manager",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Noah Costa's phone number?",
+    "expect": "(871) 711-7482",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Nebula Sanderson's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What team does the person allergic to strawberries work on?",
+    "expect": "Sales",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Wren Dubois's hobbies?",
+    "expect": "pickup basketball",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current Datadog API key?",
+    "expect": "dd-api-4z1g52at2xrgifl129960gbfw9",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Wren Dubois from?",
+    "expect": "Karachi",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is the email for RedPeak Retail's main contact?",
+    "expect": "noah.feld@redpeakretail.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What was Luna Dubois's role before their last promotion?",
+    "expect": "Sales Rep",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Grafana API key?",
+    "expect": "glsa-nexus-7y22igzxv9xjm6z6ccciv473",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-8wdzrmjbf7ny03vkxtufdjkdfr",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Freya Holloway sit?",
+    "expect": "C4-6",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to sulfa drugs work on?",
+    "expect": "Mercury",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Providence on the Customer Success team have?",
+    "expect": "Platform Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Wren Dubois's employee ID?",
+    "expect": "NX-7924",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Marco Rossi allergic to?",
+    "expect": "bee stings",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Adrian Cole's phone number?",
+    "expect": "(203) 939-5315",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Orion Nightshade's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Atlas Shipping's ARR?",
+    "expect": "$480,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Olga Alvarez join the company?",
+    "expect": "2025-04-15",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Fiona Adeyemi allergic to?",
+    "expect": "sesame",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What are Noah Costa's children's names?",
+    "expect": "Lars",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Lars Mueller allergic to?",
+    "expect": "gluten",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Zephyr Blackstone's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Jakob Horvat's employee ID?",
+    "expect": "NX-3504",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Leo Lam's employee ID?",
+    "expect": "NX-9856",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Lars Okonkwo's employee ID?",
+    "expect": "NX-7916",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Bram Park from?",
+    "expect": "Stockholm",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Freya Holloway's current role?",
+    "expect": "Legal Counsel",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Tomas Wu's employee ID?",
+    "expect": "NX-2519",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What city does Uri Nair call home?",
+    "expect": "St. Louis",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the AWS key last rotated?",
+    "expect": "2025-04-17",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When was the Grafana key last rotated?",
+    "expect": "2025-04-22",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Luna Dubois's employee ID?",
+    "expect": "NX-8527",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current office days policy?",
+    "expect": "Tuesday and Wednesday only",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What industry is Helio Freight in?",
+    "expect": "Freight & Logistics",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "Where is Ava Ramirez from?",
+    "expect": "Atlanta",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the AWS key last rotated?",
+    "expect": "2025-04-23",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What role does the person from Irvine on the Infrastructure team have?",
+    "expect": "DevOps Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "day"
+  },
+  {
+    "query": "Who is the main contact at Northstar Medical Supply?",
+    "expect": "Hugo Martinez",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Yuki Wei sit?",
+    "expect": "E5-8",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to peanuts work on?",
+    "expect": "Legal",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Hana Patel's phone number?",
+    "expect": "(358) 394-5861",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Kai Iqbal sit?",
+    "expect": "D1-6",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Stripe key last rotated?",
+    "expect": "2025-04-15",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-u58cep57tcozdantniqsuha51l",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Noah Costa's employee ID?",
+    "expect": "NX-8517",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current OpenAI API key?",
+    "expect": "sk-test-nexus-jym8zz7ioabt3818yop3wjrmh",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What tech stack does the Atlas project use?",
+    "expect": "React",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Kira Becker's phone number?",
+    "expect": "(810) 679-9669",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Noah Costa's email address?",
+    "expect": "noah.costa@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Pune on the Mercury team have?",
+    "expect": "UX Designer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is the name of Lars Mueller's pet?",
+    "expect": "Pretzel",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Boston on the Polaris team have?",
+    "expect": "Platform Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What tech stack does the Aurora project use?",
+    "expect": "Spark",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the name of Luna Dubois's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to peanuts work on?",
+    "expect": "Mercury",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the email for Blue Mesa Grocers's main contact?",
+    "expect": "ivan.delgado@bluemesagrocers.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Marco Rossi's hobbies?",
+    "expect": "keeping reef tanks",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "Does Wren Dubois have any food sensitivities?",
+    "expect": "soy",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Twilio key last rotated?",
+    "expect": "2025-04-15",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Hana Patel's email address?",
+    "expect": "hana.patel@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the name of Tomas Wu's pet?",
+    "expect": "Newton",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Lars Mueller's email address?",
+    "expect": "lars.mueller@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Twilio key last rotated?",
+    "expect": "2025-04-03",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Nina Yamamoto's children's names?",
+    "expect": "Rosa",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Chicago on the Infrastructure team have?",
+    "expect": "Engineering Manager",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Datadog API key?",
+    "expect": "dd-api-3rtqohhspxe78669by4cyxqbwewpg",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Ivan Banerjee's hobbies?",
+    "expect": "surfing",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the GitHub key last rotated?",
+    "expect": "2025-04-24",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What are Dante Banerjee's hobbies?",
+    "expect": "keeping reef tanks",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Boston on the Design team have?",
+    "expect": "VP Engineering",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Stefan Singh sit?",
+    "expect": "E6-11",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Fiona Adeyemi from?",
+    "expect": "Portland",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What team does the person allergic to sesame work on?",
+    "expect": "Finance",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What role does the person from Austin on the Mercury team have?",
+    "expect": "Security Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "day"
+  },
+  {
+    "query": "What is Uma Mueller's phone number?",
+    "expect": "(892) 958-9935",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uri Nguyen's email address?",
+    "expect": "uri.nguyen@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Annika Ortega join the company?",
+    "expect": "2025-03-20",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current office days policy?",
+    "expect": "Monday through Thursday",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the email for Atlas Shipping's main contact?",
+    "expect": "yuki.kim@atlasshipping.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-edkts2us54getchbvgkp7l9kv913ozl",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What does the customer with contact Freya Lee use our product for?",
+    "expect": "inventory optimization",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What city does Nina Yamamoto call home?",
+    "expect": "Providence",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Uri Nguyen's hobbies?",
+    "expect": "futsal",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Quinn Brooks join the company?",
+    "expect": "2025-04-18",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Marco Rossi's employee ID?",
+    "expect": "NX-1887",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team is Anders Shah currently on?",
+    "expect": "Security",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Toronto on the Aurora team have?",
+    "expect": "Backend Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current PagerDuty API key?",
+    "expect": "pd-svc-xifsu06kbj2ciepxxycj2xx2ei",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Is Uma Mueller a parent?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Leo Lam's email address?",
+    "expect": "leo.lam@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current OpenAI API key?",
+    "expect": "sk-test-nexus-3ejow9y1lyfspefrjyjyuxgf",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Fiona Lang allergic to?",
+    "expect": "peanuts",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to penicillin work on?",
+    "expect": "Sales",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to bee stings work on?",
+    "expect": "Product",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What does the customer with contact Luna Petrov use our product for?",
+    "expect": "inventory optimization for ret",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What industry is RedPeak Retail in?",
+    "expect": "Retail",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "When was the Grafana key last rotated?",
+    "expect": "2025-04-05",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to gluten work on?",
+    "expect": "Design",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Tomas Wu's phone number?",
+    "expect": "(981) 544-2674",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "When did Diana Shah join the company?",
+    "expect": "2025-04-03",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Ingrid Adeyemi join the company?",
+    "expect": "2025-04-25",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Lars Mueller's employee ID?",
+    "expect": "NX-2790",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to peanuts work on?",
+    "expect": "Customer Success",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Wren Lee's email address?",
+    "expect": "wren.lee@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did we acquire Palantir?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Marco Rossi's phone number?",
+    "expect": "(633) 620-8651",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Stockholm on the Sales team have?",
+    "expect": "Data Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Olga Nair's employee ID?",
+    "expect": "NX-4814",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to penicillin work on?",
+    "expect": "Polaris",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Olga Nair sit?",
+    "expect": "A4-9",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "Does Kai Adeyemi have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Nina Singh's email address?",
+    "expect": "nina.singh@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ivan Banerjee allergic to?",
+    "expect": "bee stings",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "When did Greta Osei join the company?",
+    "expect": "2025-04-08",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What was Luna Lee's role before their last promotion?",
+    "expect": "Frontend Engineer",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What was Freya Holloway's role before their last promotion?",
+    "expect": "Frontend Engineer",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What was Fiona Watanabe's role before their last promotion?",
+    "expect": "HR Manager",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Jakob Horvat from?",
+    "expect": "Pune",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to tree nuts work on?",
+    "expect": "People Ops",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team is Fiona Kim currently on?",
+    "expect": "Security",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Matteo Yamamoto join the company?",
+    "expect": "2025-04-12",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the email for Pinnacle Foods's main contact?",
+    "expect": "uma.holloway@pinnaclefoods.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current PTO policy policy?",
+    "expect": "unlimited with 10-day minimum",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the name of Bram Park's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Dante Banerjee from?",
+    "expect": "Irvine",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Annika Dubois join the company?",
+    "expect": "2025-03-18",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the main contact at Ironwood Timber?",
+    "expect": "Jakob Berg",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Anders Shah's email address?",
+    "expect": "anders.shah@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Fiona Lang sit?",
+    "expect": "A1-11",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Kai Osei sit?",
+    "expect": "E4-17",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the Bitcoin wallet address?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "Where does Adrian Cole sit?",
+    "expect": "B5-4",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What is the name of Ethan Volkov's pet?",
+    "expect": "Ada",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What tech stack does the Beacon project use?",
+    "expect": "React Native",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-8wdzrmjbf7xklx6ohmip5bx9x39ifet",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What industry is Cascade Energy in?",
+    "expect": "Energy",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Is Fiona Lang a parent?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Irvine on the Platform team have?",
+    "expect": "UX Designer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Tokyo on the Beacon team have?",
+    "expect": "Data Scientist",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Blue Mesa Grocers's ARR?",
+    "expect": "$280,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Nina Singh have any food sensitivities?",
+    "expect": "tree nuts",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Kira Becker allergic to?",
+    "expect": "strawberries",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Ethan Martinez join the company?",
+    "expect": "2025-04-17",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What was Marco Lam's role before their last promotion?",
+    "expect": "Finance Manager",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Leo Lam sit?",
+    "expect": "A1-8",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What are Olga Nair's hobbies?",
+    "expect": "keeping reef tanks",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Bram Park's email address?",
+    "expect": "bram.park@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Luna Dubois from?",
+    "expect": "Chicago",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Freya Wei's phone number?",
+    "expect": "(200) 813-6310",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Does Greta Brooks have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAgkv05sz92q4nm8r9rigppd7oodg0",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current Stripe API key?",
+    "expect": "rk-test-nexus-6vgugfust21k2w2cw1rdezx",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Northstar Medical Supply's ARR?",
+    "expect": "$420,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current parental leave policy?",
+    "expect": "18 weeks paid",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What was Tessa Brooks's role before their last promotion?",
+    "expect": "Sales Rep",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Freya Wei's email address?",
+    "expect": "freya.wei@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Marco Rossi's email address?",
+    "expect": "marco.rossi@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Datadog key last rotated?",
+    "expect": "2025-04-18",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When did Rosa Lee join the company?",
+    "expect": "2025-03-31",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Leila Reyes sit?",
+    "expect": "A2-2",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAdi07he42rdw653kwki85l8d7ceda0ioe",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "When was the GitHub key last rotated?",
+    "expect": "2025-04-17",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAa3s8ke2wrhx1z2yvl55x7rf1f1l8",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What does the customer with contact Bianca Holloway use our product for?",
+    "expect": "warehouse automation and scann",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "WHAT IS THE COMPANY EIN NUMBER",
+    "expect": "83-4827156",
+    "category": "robustness",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current Datadog API key?",
+    "expect": "dd-api-3rtqohhspthdp03eh58b6pjs1a",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What does Ui Nguyen do?",
+    "expect": "HR Manager",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Does Luna Dubois have any food sensitivities?",
+    "expect": "gluten",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Nexus go public?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAdi07he42rdw6et32cdxsef6y39c2",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Wren Lee's children's names?",
+    "expect": "Marco",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uri Nguyen's employee ID?",
+    "expect": "NX-7065",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the AWS key last rotated?",
+    "expect": "2025-04-22",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Who is the main contact at Crestline Aviation?",
+    "expect": "Sofia Alvarez",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Freya Holloway allergic to?",
+    "expect": "peanuts",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Jakob Foster's current role?",
+    "expect": "QA Engineer",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Does Nina Yamamoto have any food sensitivities?",
+    "expect": "peanuts",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Noah Costa's current role?",
+    "expect": "Legal Counsel",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the main contact at Cobalt Electronics?",
+    "expect": "Felix Blackwood",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Lars Okonkwo allergic to?",
+    "expect": "penicillin",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Uri Vega call home?",
+    "expect": "Atlanta",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Tessa Brooks's current role?",
+    "expect": "Data Scientist",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ava Ramirez's employee ID?",
+    "expect": "NX-4470",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Verdant Agriculture in?",
+    "expect": "AgTech",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Where does Noah Costa sit?",
+    "expect": "B3-5",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Bram Morgan join the company?",
+    "expect": "2025-04-21",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "When did Diana Singh join the company?",
+    "expect": "2025-04-10",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Uma Mueller's children's names?",
+    "expect": "Elena",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Minneapolis on the Mercury team have?",
+    "expect": "Security Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Nina Singh allergic to?",
+    "expect": "tree nuts",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Anders Shah sit?",
+    "expect": "F1-2",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Stefan Singh's employee ID?",
+    "expect": "NX-4456",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What does the customer with contact Noah Moreno use our product for?",
+    "expect": "logistics route optimization",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What does the customer with contact Hugo Martinez use our product for?",
+    "expect": "supplier lead time optimizatio",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Is Nina Yamamoto a parent?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Does Nkechi Wu have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What is Cascade Energy's ARR?",
+    "expect": "$310,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Datadog key last rotated?",
+    "expect": "2025-04-21",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What are Adrian Cole's hobbies?",
+    "expect": "woodworking",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What are Leila Reyes's hobbies?",
+    "expect": "growing chili plants",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Datadog API key?",
+    "expect": "dd-api-ssbzra3cs044msusdfo8cl0lcz5ls",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Uri Nair allergic to?",
+    "expect": "strawberries",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Wren Dubois have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What does the customer with contact Petra Nguyen use our product for?",
+    "expect": "demand forecasting across dist",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Stefan Singh's email address?",
+    "expect": "stefan.singh@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Sterling Pharma's ARR?",
+    "expect": "$280,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ava Ramirez's email address?",
+    "expect": "ava.ramirez@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Nina Singh's children's names?",
+    "expect": "Diana",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Datadog key last rotated?",
+    "expect": "2025-04-12",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team is Maren Delgado currently on?",
+    "expect": "Security",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Lena Han join the company?",
+    "expect": "2025-04-07",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Lars Mueller's phone number?",
+    "expect": "(612) 945-6559",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Jakob Horvat's hobbies?",
+    "expect": "photography",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to gluten work on?",
+    "expect": "Infrastructure",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to strawberries work on?",
+    "expect": "Design",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Lena Banerjee join the company?",
+    "expect": "2025-04-23",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is the name of Uma Mueller's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Tomas Wu call home?",
+    "expect": "Karachi",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Annika Lang have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the main contact at Blue Mesa Grocers?",
+    "expect": "Ivan Delgado",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Fiona Lang's email address?",
+    "expect": "fiona.lang@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ethan Volkov allergic to?",
+    "expect": "peanuts",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What does the customer with contact Greta Camara use our product for?",
+    "expect": "real-time visibility",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Does Uri Nguyen have any food sensitivities?",
+    "expect": "bee stings",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Jakob Horvat allergic to?",
+    "expect": "strawberries",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAa3s8ke2wrhx17sqn0b58st4pzt3edk2043",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What does the customer with contact Uma Holloway use our product for?",
+    "expect": "real-time supply chain visibil",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "Who is the main contact at Acme Manufacturing?",
+    "expect": "Noah Moreno",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Kira Becker's email address?",
+    "expect": "kira.becker@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Acme Manufacturing in?",
+    "expect": "Manufacturing",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Wren Lee's phone number?",
+    "expect": "(570) 424-3266",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Freya Holloway's phone number?",
+    "expect": "(987) 856-6573",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Uma Mueller sit?",
+    "expect": "E4-2",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Does Ava Ramirez have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Freya Holloway's hobbies?",
+    "expect": "piano",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Tomas Wu's email address?",
+    "expect": "tomas.wu@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Toronto on the Platform team have?",
+    "expect": "Finance Manager",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current PagerDuty API key?",
+    "expect": "pd-svc-oxlta8janlxj6y0iy1l58l9k5silu",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Lars Okonkwo from?",
+    "expect": "Boston",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Kenji Foster's children's names?",
+    "expect": "Ivan",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Marco Rossi sit?",
+    "expect": "F6-4",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Tempest O'Brien's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What was Gavin Vega's role before their last promotion?",
+    "expect": "UX Designer",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Stripe key last rotated?",
+    "expect": "2025-04-22",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current GitHub API key?",
+    "expect": "ghp-wx1jp70lxsy0c0p9usy38wtqx653g4unxu",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What city does Luna Dubois call home?",
+    "expect": "Chicago",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to sesame work on?",
+    "expect": "Aurora",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Nina Singh's hobbies?",
+    "expect": "collecting keyboards",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Noah Costa call home?",
+    "expect": "Melbourne",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Grafana key last rotated?",
+    "expect": "2025-04-18",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What city does Uri Nguyen call home?",
+    "expect": "Munich",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Bram Park's children's names?",
+    "expect": "Yuki",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the name of Noah Costa's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "Where does Fiona Adeyemi sit?",
+    "expect": "D2-3",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "What is Fiona Adeyemi's phone number?",
+    "expect": "(343) 632-4006",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Kira Becker's employee ID?",
+    "expect": "NX-5119",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current GitHub API key?",
+    "expect": "ghp-wx1jp70lxsy0vdvevg9ysqjvfjwt",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Freya Wei sit?",
+    "expect": "A1-12",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Verdant Agriculture's ARR?",
+    "expect": "$890,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Freya Wei from?",
+    "expect": "Toronto",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Where does Uri Vega sit?",
+    "expect": "F5-14",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Freya Wei's hobbies?",
+    "expect": "restoring old cameras",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What team does the person allergic to dairy work on?",
+    "expect": "Customer Success",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Providence on the Finance team have?",
+    "expect": "Finance Manager",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What does Ua Mueller do?",
+    "expect": "Finance Manager",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Wren Dubois sit?",
+    "expect": "C3-5",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current OpenAI API key?",
+    "expect": "sk-test-nexus-jym87cviyjklk2c0xp2s2o8",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What does the customer with contact Yuki Kim use our product for?",
+    "expect": "demand forecasting across dist",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Bram Park's phone number?",
+    "expect": "(854) 314-1409",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAgkv05sz92q4nrvhn5f62d3i603d93tbzqa",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current Datadog API key?",
+    "expect": "dd-api-0dm7x5j6isouuptj7o0trd9l195dw",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the email for Verdant Agriculture's main contact?",
+    "expect": "freya.lee@verdantagriculture.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "When did Vera Chen join the company?",
+    "expect": "2025-03-27",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Bram Park call home?",
+    "expect": "Stockholm",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Hana Patel have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Horizon Textiles in?",
+    "expect": "Textiles",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to strawberries work on?",
+    "expect": "Design",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Fiona Lang's phone number?",
+    "expect": "(207) 272-1964",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current GitHub API key?",
+    "expect": "ghp-bfobrcl4nvjuuwzix69gup3hr2pj",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Uri Nair from?",
+    "expect": "St. Louis",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Twilio API key?",
+    "expect": "twilio-8wdzrmjbf7xzurphbl57y9hqq2ns5",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Anders Shah have any food sensitivities?",
+    "expect": "sulfa drugs",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Bram Park sit?",
+    "expect": "B2-5",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the main contact at Cascade Energy?",
+    "expect": "Petra Nguyen",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the email for Ironwood Timber's main contact?",
+    "expect": "jakob.berg@ironwoodtimber.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "When did Nico Han join the company?",
+    "expect": "2025-04-22",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Who is the main contact at Horizon Textiles?",
+    "expect": "Greta Camara",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "tell me about the 401k match",
+    "expect": "6%",
+    "category": "robustness",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "Is Nina Singh a parent?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the main contact at RedPeak Retail?",
+    "expect": "Noah Feld",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Crestline Aviation's ARR?",
+    "expect": "$120,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Dante Banerjee's email address?",
+    "expect": "dante.banerjee@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Nina Yamamoto sit?",
+    "expect": "E1-18",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current OpenAI API key?",
+    "expect": "sk-test-nexus-3ejon4rcer8clubnjzetkpy",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the name of Ava Ramirez's pet?",
+    "expect": "Sable",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Greta Brooks's current role?",
+    "expect": "Support Engineer",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the name of Uri Nair's dog?",
+    "expect": "__NONE__",
+    "category": "adversarial",
+    "difficulty": "hard",
+    "tier": "day"
+  },
+  {
+    "query": "When was the Twilio key last rotated?",
+    "expect": "2025-04-02",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Grafana key last rotated?",
+    "expect": "2025-04-03",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Lars Okonkwo's email address?",
+    "expect": "lars.okonkwo@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Nina Singh have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Does Uri Vega have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the email for Northstar Medical Supply's main contact?",
+    "expect": "hugo.martinez@northstarmedicalsupply.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Wren Holloway's phone number?",
+    "expect": "(726) 443-5562",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Stefan Singh's phone number?",
+    "expect": "(610) 474-2084",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Kenji Foster's email address?",
+    "expect": "kenji.foster@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Datadog API key?",
+    "expect": "dd-api-ssbzra3csmcmcut6z84qcmswdv",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Luna Dubois's current role?",
+    "expect": "Technical Writer",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Jakob Wu's email address?",
+    "expect": "jakob.wu@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Atlas Shipping in?",
+    "expect": "Maritime Logistics",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the main contact at Sterling Pharma?",
+    "expect": "Lars Martinez",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the GitHub key last rotated?",
+    "expect": "2025-04-09",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Wren Dubois call home?",
+    "expect": "Karachi",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "When was the Grafana key last rotated?",
+    "expect": "2025-04-20",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Tomas Wu have any food sensitivities?",
+    "expect": "sesame",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What are Fiona Lang's children's names?",
+    "expect": "Felix",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current 401k match policy?",
+    "expect": "4.5%",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Kai Osei have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the name of Kenji Foster's pet?",
+    "expect": "Tofu",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What does Lna Dubois do?",
+    "expect": "Account Executive",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What are Wren Holloway's hobbies?",
+    "expect": "trail running",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Hana Patel's employee ID?",
+    "expect": "NX-4566",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the CEO of Google at Nexus?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "When did Pavel Richter join the company?",
+    "expect": "2025-04-07",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What was Jakob Foster's role before their last promotion?",
+    "expect": "Customer Success Manager",
+    "category": "contradiction",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Noah Costa allergic to?",
+    "expect": "strawberries",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to tree nuts work on?",
+    "expect": "Security",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Fiona Watanabe's current role?",
+    "expect": "Security Engineer",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Noah Costa's hobbies?",
+    "expect": "baking sourdough",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Lars Okonkwo sit?",
+    "expect": "E1-13",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Wren Holloway from?",
+    "expect": "Dallas",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When did Iris Ortega join the company?",
+    "expect": "2025-04-10",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to strawberries work on?",
+    "expect": "Polaris",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Uri Blackwood have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Kira Becker from?",
+    "expect": "Boston",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uri Vega's email address?",
+    "expect": "uri.vega@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What does the customer with contact Ivan Delgado use our product for?",
+    "expect": "inventory optimization for ret",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What are Wren Lee's hobbies?",
+    "expect": "cooking Thai food",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current PTO policy policy?",
+    "expect": "unlimited with 20-day minimum",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Dante Banerjee allergic to?",
+    "expect": "kiwi",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "When did Victor Cole join the company?",
+    "expect": "2025-04-02",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the London office phone number?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Bram Park's hobbies?",
+    "expect": "chess",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What does Oga Nair do?",
+    "expect": "Site Reliability Engineer",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the current Grafana API key?",
+    "expect": "glsa-nexus-7y22igue4cs0li0xy2yyf8iwhl8",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What are Nina Yamamoto's hobbies?",
+    "expect": "keeping reef tanks",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Who is the main contact at Atlas Shipping?",
+    "expect": "Yuki Kim",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Freya Holloway's email address?",
+    "expect": "freya.holloway@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the name of Wren Holloway's pet?",
+    "expect": "Ghost",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Stefan Singh allergic to?",
+    "expect": "eggs",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What role does the person from Milan on the Legal team have?",
+    "expect": "Frontend Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "When did Nico Costa join the company?",
+    "expect": "2025-03-24",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the email for Crestline Aviation's main contact?",
+    "expect": "sofia.alvarez@crestlineaviation.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What role does the person from Dallas on the Customer Success team have?",
+    "expect": "Legal Counsel",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What is Nova Fitzgerald's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "Is Anders Shah a parent?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What tech stack does the Vanguard project use?",
+    "expect": "Next.js",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "Where does Ivan Banerjee sit?",
+    "expect": "E4-4",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What does Wen Dubois do?",
+    "expect": "Product Manager",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Jakob Horvat's email address?",
+    "expect": "jakob.horvat@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What team does the person allergic to sulfa drugs work on?",
+    "expect": "Security",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the name of Kira Becker's pet?",
+    "expect": "Kernel",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Leila Reyes's employee ID?",
+    "expect": "NX-6313",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Where does Kira Becker sit?",
+    "expect": "E1-4",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Anders Shah allergic to?",
+    "expect": "sulfa drugs",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Uma Mueller call home?",
+    "expect": "Toronto",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Milan on the Security team have?",
+    "expect": "DevOps Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Northstar Medical Supply in?",
+    "expect": "Healthcare",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Pinnacle Foods's ARR?",
+    "expect": "$610,000",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What team does the person allergic to shellfish work on?",
+    "expect": "Beacon",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current GitHub API key?",
+    "expect": "ghp-ovjarji8b0dziqotfcfzyy94dakf51vg7c",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is Jakob Horvat's phone number?",
+    "expect": "(854) 719-4258",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Twilio key last rotated?",
+    "expect": "2025-04-01",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Lars Mueller sit?",
+    "expect": "B2-7",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current GitHub API key?",
+    "expect": "ghp-wx1jp70lxsy0c0bpnegc2dpcz2o8ndi6",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the Mars colony project status?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is Leila Reyes's phone number?",
+    "expect": "(588) 476-4598",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Fiona Lang from?",
+    "expect": "Minneapolis",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Wren Lee call home?",
+    "expect": "Atlanta",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Richmond on the Security team have?",
+    "expect": "DevOps Engineer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from Toronto on the Legal team have?",
+    "expect": "Legal Counsel",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Ava Ramirez sit?",
+    "expect": "E6-7",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When did Vera Kim join the company?",
+    "expect": "2025-04-02",
+    "category": "temporal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Kenji Foster's employee ID?",
+    "expect": "NX-3103",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What does Tmas Wu do?",
+    "expect": "Product Manager",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What does the customer with contact Sofia Alvarez use our product for?",
+    "expect": "inventory optimization",
+    "category": "multi_hop",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What are Uri Vega's hobbies?",
+    "expect": "painting miniatures",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the email for Cascade Energy's main contact?",
+    "expect": "petra.nguyen@cascadeenergy.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Does Kira Becker have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What role does the person from St. Louis on the Design team have?",
+    "expect": "UX Designer",
+    "category": "multi_hop",
+    "difficulty": "brutal",
+    "tier": "month"
+  },
+  {
+    "query": "What does Bam Park do?",
+    "expect": "Data Engineer",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What is the email for Sterling Pharma's main contact?",
+    "expect": "lars.martinez@sterlingpharma.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uma Mueller's employee ID?",
+    "expect": "NX-2424",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Lars Mueller's children's names?",
+    "expect": "Victor",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What city does Anders Shah call home?",
+    "expect": "Richmond",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Phoenix Goldberg's role at Nexus Dynamics?",
+    "expect": "__NONE__",
+    "category": "negative",
+    "difficulty": "medium",
+    "tier": "day"
+  },
+  {
+    "query": "What is the name of Wren Lee's pet?",
+    "expect": "Kernel",
+    "category": "personal",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "When was the Twilio key last rotated?",
+    "expect": "2025-04-17",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What does Ui Nair do?",
+    "expect": "UX Designer",
+    "category": "robustness",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "What tech stack does the Mercury project use?",
+    "expect": "FastAPI",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Uri Nguyen allergic to?",
+    "expect": "bee stings",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current PagerDuty API key?",
+    "expect": "pd-svc-9a90fo3gitazvyv2v1itum4ulz",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Where does Luna Dubois sit?",
+    "expect": "E1-13",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "Does Uri Vega have any food sensitivities?",
+    "expect": "eggs",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current AWS API key?",
+    "expect": "AKIAa3s8ke2wrhx17sfqm9rit8f6kjkvcbfc",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Where is Freya Holloway from?",
+    "expect": "Milan",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Uri Vega from?",
+    "expect": "Atlanta",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where does Kenji Foster sit?",
+    "expect": "F4-18",
+    "category": "needle",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Anders Shah's employee ID?",
+    "expect": "NX-4150",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Olga Nair's phone number?",
+    "expect": "(991) 496-2307",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "When was the GitHub key last rotated?",
+    "expect": "2025-04-18",
+    "category": "temporal",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Olga Nair have any food sensitivities?",
+    "expect": "penicillin",
+    "category": "synonym",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Ethan Volkov's email address?",
+    "expect": "ethan.volkov@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is the current Stripe API key?",
+    "expect": "rk-test-nexus-y3xsdrycem9n4nvtanmh4pnz",
+    "category": "contradiction",
+    "difficulty": "hard",
+    "tier": "year"
+  },
+  {
+    "query": "Does Ingrid Delgado have a pet?",
+    "expect": "yes",
+    "category": "implicit",
+    "difficulty": "hard",
+    "tier": "month"
+  },
+  {
+    "query": "What is Yuki Wei's phone number?",
+    "expect": "(430) 265-6539",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "year"
+  },
+  {
+    "query": "What is Jakob Wu's employee ID?",
+    "expect": "NX-8454",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Lars Okonkwo's hobbies?",
+    "expect": "futsal",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "Where is Ethan Volkov from?",
+    "expect": "Toronto",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What are Lars Mueller's hobbies?",
+    "expect": "drone racing",
+    "category": "personal",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Luna Dubois's email address?",
+    "expect": "luna.dubois@nexus-dynamics.example",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What is Wren Holloway's employee ID?",
+    "expect": "NX-8953",
+    "category": "needle",
+    "difficulty": "medium",
+    "tier": "month"
+  },
+  {
+    "query": "What industry is Sterling Pharma in?",
+    "expect": "Pharmaceuticals",
+    "category": "precision",
+    "difficulty": "medium",
+    "tier": "month"
+  }
+]
