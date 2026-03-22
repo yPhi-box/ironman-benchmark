@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.json
+!prompts/*.json
+corpus/
+results/
+.env
