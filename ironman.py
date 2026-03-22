@@ -218,6 +218,11 @@ def main():
         result = run_tier(adapter, corpus, queries, tier)
         all_results[tier] = result
     
+    # Cleanup — remove benchmark data from /tmp/
+    print(f"\n  Cleaning up benchmark data...")
+    adapter.reset()
+    print(f"  ✓ Benchmark data removed.")
+    
     # Save
     output = {
         "system": adapter.name,
