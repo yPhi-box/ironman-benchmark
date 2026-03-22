@@ -4,17 +4,17 @@ IRONMAN Memory Benchmark v1.0
 Universal benchmark for any memory system.
 
 Usage:
-    # Test OC against Atlas gateway:
-    python3 ironman.py --adapter oc --gateway http://localhost:18789 --token xxx --corpus corpus.json --tier month
+    # Test HMS (default data/ directory has canonical corpus):
+    python3 ironman.py --adapter hms --corpus data/corpus.json --queries data/queries.json --tier day
 
-    # Test HMS:
-    python3 ironman.py --adapter hms --url http://localhost:8765 --corpus corpus.json --tier year
+    # Test OpenClaw native:
+    python3 ironman.py --adapter oc --corpus data/corpus.json --queries data/queries.json --tier day
 
     # Grep baseline:
-    python3 ironman.py --adapter grep --corpus corpus.json --tier day
+    python3 ironman.py --adapter grep --corpus data/corpus.json --queries data/queries.json --tier day
 
     # All three tiers at once:
-    python3 ironman.py --adapter hms --url http://localhost:8765 --corpus corpus.json --tier all
+    python3 ironman.py --adapter hms --corpus data/corpus.json --queries data/queries.json --tier all
 """
 import argparse
 import json
@@ -166,27 +166,28 @@ def main():
     parser.add_argument("--output", default="/tmp/ironman_results.json")
     
     # Adapter-specific args
-    parser.add_argument("--url", default="http://localhost:8765", help="HMS URL")
-    parser.add_argument("--gateway", default="http://localhost:18789", help="OC gateway URL")
-    parser.add_argument("--token", help="OC gateway token")
-    parser.add_argument("--model", default="anthropic/claude-haiku-4-5", help="OC model")
-    parser.add_argument("--workspace", help="Data directory for HMS/grep")
+    parser.add_argument("--url", default="http://localhost:8765", help="HMS server URL")
+    parser.add_argument("--workspace", help="Data directory (must be in /tmp/ or contain 'ironman' — safety enforced)")
     parser.add_argument("--skip-concurrency", action="store_true",
                         help="Skip concurrency test")
     
     args = parser.parse_args()
     
-    # Build adapter
+    # Build adapter — all use isolated /tmp directories by default
+    # Custom --workspace must contain '/tmp/' or 'ironman' for safety
+    workspace = args.workspace
+    if workspace and "/tmp/" not in workspace and "ironman" not in workspace.lower():
+        print(f"SAFETY: --workspace '{workspace}' rejected.")
+        print(f"  Workspace must be in /tmp/ or contain 'ironman' in the path.")
+        print(f"  This prevents accidentally writing benchmark data into production.")
+        return 1
+    
     if args.adapter == "hms":
-        adapter = ADAPTERS["hms"](url=args.url, workspace=args.workspace)
+        adapter = ADAPTERS["hms"](url=args.url, workspace=workspace)
     elif args.adapter == "oc":
-        adapter = ADAPTERS["oc"](
-            gateway_url=args.gateway, token=args.token, model=args.model
-        )
+        adapter = ADAPTERS["oc"](workspace=workspace)
     elif args.adapter == "grep":
-        adapter = ADAPTERS["grep"](
-            workspace=args.workspace or "/tmp/ironman-grep-data"
-        )
+        adapter = ADAPTERS["grep"]()
     
     # Health check
     if not adapter.health():
